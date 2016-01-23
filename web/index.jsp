@@ -13,11 +13,11 @@
     </head>
     <body>
         <h1>Autenticación</h1>
-        <form method="POST">
+        <form action="autenticar" method="POST">
             <p>
-                Usuario: <INPUT type="text" name="user"><br>
-                Password: <INPUT type="password" name="password"><br>
-                <INPUT type="submit" value="Enviar"
+                Usuario: <INPUT type="text" name="user" placeholder="Escribe tu usuario..."><br><br>
+                Password: <INPUT type="password" name="password" placeholder="Escribe tu contraseña..."><br><br>
+                <INPUT type="submit" value="Ir a autenticación."
             </p>
         </form>
     </body>
