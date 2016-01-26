@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="CSS/index_login.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon1.ico" />
+
     </head>
     <body>
         <div class="todo">
