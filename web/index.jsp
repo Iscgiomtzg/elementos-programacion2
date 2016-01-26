@@ -9,16 +9,32 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Exitium</title>
+        <link rel="stylesheet" href="CSS/index_login.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <h1>Autenticación</h1>
-        <form action="autenticar" method="POST">
-            <p>
-                Usuario: <INPUT type="text" name="user" placeholder="Escribe tu usuario..."><br><br>
-                Password: <INPUT type="password" name="password" placeholder="Escribe tu contraseña..."><br><br>
-                <INPUT type="submit" value="Ir a autenticación."
-            </p>
-        </form>
+        <div class="todo">
+        <div id="header">
+            <h1>Autenticación</h1>
+        </div>
+        <div id="form">
+            <div class="centerTable">
+            <form action="autenticar" method="POST">
+                <table>
+                  <tr>
+                      <td>Usuario:</td> 
+                      <td><INPUT type="text" name="user" placeholder="Escribe tu usuario..."></td>
+                  </tr>
+                  <tr>
+                      <td>Password:</td> 
+                      <td><INPUT type="password" name="password" placeholder="Escribe tu contraseña..."></td>
+                  </tr>
+                </table>
+                <input type="submit" value="Ir a autenticación.">
+            </form>
+            </div>     
+        </div>
+        </div>
     </body>
 </html>

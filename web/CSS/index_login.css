@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/01/2016, 11:00:12 PM
+    Author     : exitium001
+*/
+body{
+    background-color: #2E2E2E;
+}
+
+#header {
+    background-color: #6E6E6E;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#form {
+    background-color: #6E6E6E;
+    margin: 0 auto;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+tr, td, input {
+    text-align: left;
+    padding: 5px;
+}
+
+div.centerTable{
+        text-align: center;
+}
+ 
+div.centerTable table {
+       margin: 0 auto;
+       text-align: left;
+}
+div.todo {
+    margin-top: 13%;
+}
