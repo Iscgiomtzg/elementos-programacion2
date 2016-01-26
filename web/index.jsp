@@ -30,7 +30,7 @@
                       <td><INPUT type="text" name="user" placeholder="Escribe tu usuario..."></td>
                   </tr>
                   <tr>
-                      <td>Password:</td> 
+                      <td>Contraseña:</td> 
                       <td><INPUT type="password" name="password" placeholder="Escribe tu contraseña..."></td>
                   </tr>
                 </table>
