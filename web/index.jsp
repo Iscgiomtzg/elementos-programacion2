@@ -25,16 +25,18 @@
             <div class="centerTable">
             <form action="autenticar" method="POST">
                 <table>
-                  <tr>
-                      <td>Usuario:</td> 
-                      <td><INPUT type="text" name="user" placeholder="Escribe tu usuario..."></td>
+                  <tr> 
+                      <td><INPUT type="text" name="user" placeholder="Usuario..." class="input_text"></td>
                   </tr>
                   <tr>
-                      <td>Contraseña:</td> 
-                      <td><INPUT type="password" name="password" placeholder="Escribe tu contraseña..."></td>
+                      <td><INPUT type="password" name="password" placeholder="Contraseña..." class="input_text"></td>
                   </tr>
                 </table>
                 <input type="submit" value="Autenticar" class="boton">
+                <div id="login_fail">
+                <a href="">¿No tienes una cuenta?</a><br>
+                <a href="">¿No puedes iniciar sesión?</a>
+                </div>
             </form>
             </div>     
         </div>

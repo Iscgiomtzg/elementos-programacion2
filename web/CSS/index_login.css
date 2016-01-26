@@ -21,13 +21,14 @@ body{
     /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Orbitron', sans-serif;
     text-align: center;
+    color: #2E2E2E;
 }
 #form {
     background-color: #6E6E6E;
     margin: 0 auto;
-    margin-left: 37.5%;
-    margin-right: 37.5%;
-    padding: 20px;
+    margin-left: 39%;
+    margin-right: 39%;
+    padding: 10px;
     border-radius: 10px;
     /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Orbitron', sans-serif;
@@ -64,4 +65,23 @@ div.todo {
 
 .boton:active, .boton:focus {
         outline: none;
+       }
+       
+.input_text{
+          font-family: 'Orbitron', sans-serif; 
+       }
+       
+#login_fail{
+           font-family: 'Orbitron', sans-serif; 
+           text-align: right;
+           font-size: 15px;
+           text-decoration: none;
+           color: #2E2E2E;
+           margin-top: 10px;
+       }
+      
+#login_fail.a:visited, #login_fail.a:hover {
+           outline: none;
+           text-decoration: none;
+           color: #2E2E2E;
        }
