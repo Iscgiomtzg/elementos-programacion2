@@ -9,14 +9,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Exitium</title>
+        <title>Exitium: Autenticación</title>
         <link rel="stylesheet" href="CSS/index_login.css">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div class="todo">
         <div id="header">
-            <h1>Autenticación</h1>
+            <h1>Identificate</h1>
         </div>
         <div id="form">
             <div class="centerTable">
@@ -31,7 +32,7 @@
                       <td><INPUT type="password" name="password" placeholder="Escribe tu contraseña..."></td>
                   </tr>
                 </table>
-                <input type="submit" value="Ir a autenticación.">
+                <input type="submit" value="Autenticar" class="boton">
             </form>
             </div>     
         </div>
